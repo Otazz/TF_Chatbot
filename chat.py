@@ -166,5 +166,3 @@ def predict(text):
 	answer = sess.run(decoder_prediction, feed_dict={encoder_inputs:np.array([message]).T, encoder_inputs_length: [len(message)]})
 	decoded = example_utils.to_string(answer.T[0], 'vocabulary.txt')
 	return decoded
-
-print(predict('Ola tudo bem'))

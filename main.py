@@ -2,22 +2,28 @@ from flask import Flask, request, render_template
 import db_utils
 import chat
 
-app = Flask(__name__)
+APP = Flask(__name__)
+#DBB = db_utils.DB()
+S2S = chat.Seq2Seq()
 
-@app.route('/')
+@APP.route('/')
 def index():
-	return render_template('index.html')
+  return render_template('index.html')
 
-@app.route('/msg')
+@APP.route('/train')
+def train():
+  return S2S.train()
+
+@APP.route('/msg')
 def response():
-	text = request.args.get("text")
-	response = chat.predict(text)
-	saver = {
-		"input": text,
-		"output": response
-	}
-	db_utils.save_input(saver)
-	return response
+  text = request.args.get("text")
+  response_out = S2S.predict(text)
+  saver = {
+    "input": text,
+    "output": response_out
+  }
+  #DBB.save_input(saver)
+  return response_out
 
 if __name__ == "__main__":
-	app.run(host='0.0.0.0')
+  APP.run(host='0.0.0.0')

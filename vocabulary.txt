@@ -1,133 +1,67 @@
 2 <UNK>
-
 3 ola
-
 4 tudo
-
 5 bem
-
 6 como
-
 7 posso
-
 8 ajudar
-
 9 lo
-
 10 pode
-
 11 me
-
 12 dar
-
 13 um
-
 14 cafe
-
 15 nao
-
 16 o
-
 17 que
-
 18 e
-
 19 ica
-
 20 nada
-
 21 quero
-
 22 isso
-
 23 aqui
-
 24 uma
-
 25 porcaria
-
 26 teste
-
 27 serio
-
 28 eu
-
 29 faco
-
 30 para
-
 31 acessar
-
 32 site
-
 33 usando
-
 34 browser
-
 35 compativel
-
 36 ?
-
 37 sim
-
 38 voce
-
 39 estou
-
 40 no
-
 41 ajuda
-
 42 qual
-
 43 seu
-
 44 nome
-
 45 dollyinho
-
 46 amiguinho
-
 47 :(
-
 48 se
-
 49 chama
-
 50 poxa
-
 51 responsavel
-
 52 do
-
 53 de
-
 54 fazer
-
 55 tal
-
 56 coisa
-
 57 pego
-
 58 minhas
-
 59 coisas
-
 60 vou
-
 61 embora
-
 62 sei
-
 63 la
-
 64 azul
-
 65 cor
-
 66 blue
-
 67 green
-
 68 verde
